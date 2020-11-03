@@ -1,19 +1,33 @@
 *
 {
-    margin:0
-    padding:0
-}
+  /*  * {
+    box-sizing: border-box;
+    padding: 100px;
+    margin: 100px;
+    }*/
+ 
 
-body {
-    display: flex;
+body 
+    /*display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    min-height: 80vh;*/
  
+
+
+.boxed {
+    border: 10px dotted black ;
+      }
+
+
+
+h2{
+    text-align: center;
+    margin: "60px";
 }
 
 .button {
-    margin: "20px";
+    margin: 20px;
     background-color: red;
 
 }

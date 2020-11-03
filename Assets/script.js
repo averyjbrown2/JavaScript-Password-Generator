@@ -44,8 +44,8 @@
 
         var values = "";
         
-        for (var i = 0, i <= lengthCheck; i++) {
-           values += confirmVariables.charAt(Math.floor(Math.random() * confirmVariables.length);
+        for (var i = 0, i < specialChar.length; i++) {
+           console.log(Math.floor(Math.random() * lengthCheck);
             return values;
     
         var generateBtn = document.querySelector("#generate");

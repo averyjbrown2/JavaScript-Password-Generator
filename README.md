@@ -3,11 +3,11 @@ This project involved the creation of a random password generator. This password
 
 This password generator could be used in a variety of settings: for personal use to generate passwords, or even corporate use for employees, as well as general use for websites to provide to users, etc.
 
-webpage: 
+## Webpage: 
 
-https://averyjbrown2.github.io/JavaScript-Password-Generator/
+[Deployed Website](https://averyjbrown2.github.io/JavaScript-Password-Generator/)
 
 
-image:
+## Image:
 
-img: ![wepage image](Assets/Password-Generator-Image) Format: ![webpage image](url)
+![deployed site](./Assets/Image.png)

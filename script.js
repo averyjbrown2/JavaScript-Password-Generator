@@ -30,7 +30,7 @@
              lowercaseConfirm === false &&
               uppercaseConfirm === false &&
                numericConfirm === false){
-            alert("Must choose at least one character.");
+            alert("Must choose at least one option.");
                 return;
                }
         var confirmVariables = {
@@ -42,22 +42,23 @@
         return confirmVariables; 
         }
 
+        var values = "";
 
       
-        google how to get function to get element from Array
+        //google how to get function to get element from Array
         
-         = ""
-        for (var i = 0, i < lengthCheck; i++) {
-           console.log(Math.floor(Math.random)) *
-            pullSpecial += Math.floor(Math.random)  * (specialChar.length)
-        function to make password based on user Input
+        
+        for (var i = 0, i <= lengthCheck; i++) {
+           values += confirmVariables.charAt(Math.floor(Math.random() * confirmVariables.length);
+            return values;
+           //function to make password based on user Input
 
     
         var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword(); makes password based on user input
+  var password = generatePassword(); 
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;

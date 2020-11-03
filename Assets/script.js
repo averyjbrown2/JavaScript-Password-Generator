@@ -45,9 +45,21 @@
         var values = "";
         
         for (var i = 0, i < specialChar.length; i++) {
-           console.log(Math.floor(Math.random() * lengthCheck);
+           console.log(Math.floor(Math.random() * specialChar.length);
             return values;
     
+        for (var i = 0, i < lowercase.length; i++) {
+            console.log(Math.floor(Math.random() * lowercase.length);
+            return values;
+        for (var i = 0, i < uppercase.length; i++) {
+            console.log(Math.floor(Math.random() * uppercase.length);
+            return values;
+         
+        for (var i = 0, i < numeric.length; i++) {
+            console.log(Math.floor(Math.random() * numeric.length);
+            return values;
+         
+
         var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input

@@ -43,16 +43,10 @@
         }
 
         var values = "";
-
-      
-        //google how to get function to get element from Array
-        
         
         for (var i = 0, i <= lengthCheck; i++) {
            values += confirmVariables.charAt(Math.floor(Math.random() * confirmVariables.length);
             return values;
-           //function to make password based on user Input
-
     
         var generateBtn = document.querySelector("#generate");
 

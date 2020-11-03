@@ -20,9 +20,25 @@
         var uppercaseConfirm = confirm("Click okay for uppercase characters.");
         var numericConfirm = confirm("Click okay for numeric characters.");
         
+        if (specialConfirm === false &&
+             lowercaseConfirm === false &&
+              uppercaseConfirm === false &&
+               numericConfirm === false){
+            alert("Must choose at least one character.");
+                return;
+               }
+        var confirmVariables = {
+            specialConfirm: specialConfirm, 
+            lowercaseConfirm: lowercaseConfirm,
+            uppercaseConfirm: uppercaseConfirm,
+            numericConfirm: numericConfirm
+        }
+        return confirmVariables; 
+        }
+
+        
+        
     
-    
-    
-    }
+
 
 

@@ -5,10 +5,10 @@ var generateBtn = document.querySelector("#generate");
 ///Choose length of password
 function generatePassword() {
     let NumChar = prompt("Choose a password length between 8 and 128 characters");
-    let lowerCaseLetters = prompt("Do you want lowercase letters?");
-    let upperCaseLetters = prompt("Do you want uppercase letters?");
-    let numeric = prompt("Do you want numeric characters?");
-    let specialChar = prompt("Do you want special characters?");
+    let lowerCaseConfirm = confirm("Do you want lowercase letters?");
+    let upperCaseConfirm = confirm("Do you want uppercase letters?");
+    let numericConfirm = confirm("Do you want numeric characters?");
+    let specialCharConfirm = confirm("Do you want special characters?");
     
 
 }
